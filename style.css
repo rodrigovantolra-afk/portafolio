@@ -1,0 +1,159 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: "DM Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem 10rem;
+    background-color: #ffffff; /* Change as needed */
+}
+
+.navbar .logo a {
+    color: #000000; /* Logo color */
+    font-size: 3rem;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin-left: 10rem;
+    font-weight: 800;
+}
+
+.nav-links li a {
+    color: #000000; /* Link color */
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #000000; /* Hover effect color */
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        display: none; /* Hide initially on mobile */
+    }
+    
+    /* Toggle menu display */
+    .navbar.active .nav-links {
+        display: flex;
+    }
+}
+
+/* Headers */ 
+/* Intro Section Styling */
+.intro {
+    display: flex;
+    align-items: flex-start; /* Aligns items to the top initially */
+    padding: 7rem 10rem;
+}
+
+.intro-left h2 {
+    font-size: 3rem; /* Customize size */
+    color: #000000;
+}
+
+.intro-right h3 {
+    font-size: 2rem; /* Customize size */
+    color: #7a7a7a;
+    margin-top: 3rem; /* Moves the right header down by 3rem */
+    margin-left: 20rem;
+    font-weight: 300;
+}
+
+
+/* Arrow */
+.arrow-down {
+    font-size: 3rem; /* Adjust size as needed */
+    color: #333; /* Arrow color */
+    margin-top: 1rem; /* Adjust spacing */
+    cursor: pointer;
+    margin-left: 10rem;
+}
+
+
+/* Project Section Styling */
+.project-section {
+    display: flex;
+    align-items: flex-start;
+    padding: 2rem;
+    padding-top: 5rem;
+    gap: 2rem;
+}
+
+.project-text {
+    flex: 1;
+    max-width: 50%;
+    padding-left: 8rem;
+}
+
+.project-text h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.project-text p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.project-text small {
+    display: block;
+    font-size: 0.875rem;
+    color: #666;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.project-link {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px solid #000;
+    display: inline-block;
+    margin-top: 8rem;
+}
+
+.project-link:hover {
+    color: #555;
+    border-color: #555;
+}
+
+.project-image {
+    flex: 1;
+    max-width: 50%;
+}
+
+.project-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+hr {
+    background-color: #000000;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 8rem;
+}
