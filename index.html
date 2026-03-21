@@ -3,66 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
-    <title>Webpage 1 - Portfolio</title>
+    <title>Rodrigo Vantolra - Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
-
-    <!-- Link to CSS file -->
     <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
-    
+
     <header>
         <nav class="navbar">
             <div class="logo">
-                <a href="#">rv.</a>
+                <a href="index.html">rv.</a>
             </div>
             <ul class="nav-links">
-                <li><a href="#">Work</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="index.html">Work</a></li>
+                <li><a href="sports.html">Sports</a></li>
+                <li><a href="yoga.html">Yoga</a></li>
+                <li><a href="portraits.html">Portraits</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <!-- Main Content Goes Here -->
         <section class="intro">
             <div class="intro-left">
                 <h2>Hello, I'm <br>Rodrigo Vantolra.</h2>
             </div>
             <div class="intro-right">
-                <h3>I am a generalist with zkills like <br> photography, web programming, sales and still learning.</h3>
+                <h3>I am a generalist with skills like <br> photography, web programming, sales and still learning.</h3>
             </div>
         </section>
         <section>
-            <div class="arrow-down">&#8595;</div> <!-- HTML code for a down arrow -->
+            <div class="arrow-down">&#8595;</div>
         </section>
-       
+
+        <section class="categories">
+            <div class="category-card">
+                <a href="sports.html">
+                    <div class="category-placeholder">
+                        <span>Sports</span>
+                    </div>
+                </a>
+            </div>
+            <div class="category-card">
+                <a href="yoga.html">
+                    <div class="category-placeholder">
+                        <span>Yoga</span>
+                    </div>
+                </a>
+            </div>
+            <div class="category-card">
+                <a href="portraits.html">
+                    <div class="category-placeholder">
+                        <span>Portraits</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
         <section class="project-section">
             <div class="project-text">
                 <h3>01 / Prime League Mx</h3>
-                <p>Liga liga diferente de fútbol en Monterrey. <br>¿Y tú, ya estas en tu PRIME?</br></p>
-                <small>Liga de fútbol femenil y varonil de 7 vs 7 <br>inspirada en la "Kings League".</br></small>
-                <a href="#" class="project-link">More shots from Prime League Mx &rarr;</a>
+                <p>Liga liga diferente de fútbol en Monterrey. <br>¿Y tú, ya estas en tu PRIME?</p>
+                <small>Liga de fútbol femenil y varonil de 7 vs 7 <br>inspirada en la "Kings League".</small>
+                <a href="sports.html" class="project-link">More shots from Prime League Mx &rarr;</a>
             </div>
             <div class="project-image">
-                <!-- Placeholder for the image -->
-                <img src="your-image-path.jpg" alt="Project Image">
+                <div class="image-placeholder">Project Image</div>
             </div>
         </section>
         <hr>
     </main>
 
     <footer>
-        <!-- Footer Content -->
+        <div class="footer-content">
+            <p>&copy; 2026 Rodrigo Vantolra. All rights reserved.</p>
+        </div>
     </footer>
 
-    <!-- Link to JavaScript file -->
-    <script src="script.js"></script>
 </body>
 </html>
