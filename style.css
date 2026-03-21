@@ -117,7 +117,7 @@ body {
 /* Intro Section */
 .intro {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     padding: 7rem 10rem;
 }
 
@@ -129,7 +129,7 @@ body {
 .intro-right h3 {
     font-size: 2rem;
     color: #7a7a7a;
-    margin-top: 3rem;
+    margin-top: 0;
     margin-left: 20rem;
     font-weight: 300;
 }
