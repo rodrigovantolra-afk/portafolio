@@ -303,10 +303,14 @@ hr {
 
 .gallery-item.full {
     width: 100%;
+    height: 600px;
+    overflow: hidden;
 }
 
 .gallery-item.half {
     width: 50%;
+    height: 600px;
+    overflow: hidden;
 }
 
 .gallery-item.one-third {
