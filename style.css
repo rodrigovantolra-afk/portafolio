@@ -251,14 +251,16 @@ hr {
 
 .gallery-item.full {
     width: 100%;
-    height: 70vh;
-    overflow: hidden;
 }
 
 .gallery-item.half {
     width: 50%;
-    height: 70vh;
-    overflow: hidden;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .gallery-item.one-third {
