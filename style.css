@@ -337,6 +337,13 @@ hr {
     border-bottom: 1px solid #000;
 }
 
+.gallery-item img,
+.category-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
 .footer-content a:hover {
     color: #555;
     border-color: #555;
